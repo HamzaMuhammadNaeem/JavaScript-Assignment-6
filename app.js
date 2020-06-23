@@ -341,9 +341,10 @@
 // Task-11
 
 // var date = new Date();
-// var hourAgo = new Date(1);
-// var result = date - hourAgo;
+// var hourAgo = date.getHours();
+// var result = new Date ( );
 // document.write("current date: " + date + ",<br>" + "1 hour ago, it was " + result);
+
 
 
 //Task-12
@@ -352,14 +353,18 @@
 
 //Task-13
 
- 
+var age = prompt("Enter Your Age");
+var date = new Date();
+var Year = date.getFullYear();
+var birthYear = Year - age;
+document.write("Your age is " + age + "<br>Your birth year is " + birthYear);
 
 //Task-14
 
 
 
-
-                            //Chapter # 21 to 25
+                            //Chapter # 35 to 38
+                        
 
 //Task-1
 
